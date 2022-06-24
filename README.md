@@ -2,7 +2,7 @@
 
 **4322IS**
 
-**Equipo : UwU **
+**Equipo : UwU 
 
 # integrantes :
 
