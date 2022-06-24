@@ -17,8 +17,8 @@
 
 #### 1.-Readme 
 #### 2.-index.html
-#### 3.-
-#### 4.-
+#### 3.-class(clases)
+#### 4.-img(imagenes)
 
 ### indroduccion
 El tipico juego de serpientes y escaleras llevado a un entorno grafico ,desarrollado por los alumnos del 
