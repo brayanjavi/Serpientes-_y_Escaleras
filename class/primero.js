@@ -10,10 +10,13 @@
  var j1=true;
  var ganador=false;
  a1=document.getElementById('Dado');
- alert("¡¡¡Bienvenido al juego de Serpientes y escaleras!!!\nInstrucciones:\nCada jugador tendra un turno en el que tirara el dado y depende del número su pieza avanzara");
- alert("Gana el primero en llegar a la casilla 100\nSi caes en la cabeza de la serpiente caeras hasta llegar a su cola\nSi tocas el inicio de una escalera podras subir");
- var n1 = prompt("Ingrese el nombre del jugador 1");
- var n2 = prompt("Ingrese el nombre del jugador 2");
+ alert("¡Bienvenido al Serpientes y escaleras!\n UWU");
+ console.log("¡Bienvenido al juego de Serpientes y escaleras!\n*Instrucciones:\n-Cada jugador tendra un turno en el que tirara el dado y depende del número su pieza avanzara\n-Gana el primero en llegar a la casilla 100\n-Si caes en la cabeza de la serpiente caeras hasta llegar a su cola\n-Si tocas el inicio de una escalera podras subir");
+ alert("Intrucciones en consola");
+
+ var n1 = prompt("Ingrese el nombre del player 1");
+ var n2 = prompt("Ingrese el nombre del player 2");
+ 
  setTimeout(function(){ alert("Es el turno de "+n1+" (el negro)\nToque el dado");   }, 300);
  tabla();
 
@@ -21,7 +24,6 @@
      if(j1==true){
          if(ganador!=true){
              let cant = Math.floor(Math.random()*(6)+1);
-             dadoNegro(cant);
              alert("Te salio: "+cant);
              ganador=moverJ1(cant);
              if(ganador==true){
@@ -34,7 +36,6 @@
      }else{
          if(ganador!=true){
              cant = Math.floor(Math.random()*(6)+1);
-             dadoBlanco(cant);
              alert("Te salio: "+cant);
              ganador=moverJ2(cant);
              if(ganador==true){
